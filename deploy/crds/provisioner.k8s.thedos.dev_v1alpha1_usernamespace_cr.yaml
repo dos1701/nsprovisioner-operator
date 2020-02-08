@@ -1,0 +1,7 @@
+apiVersion: provisioner.k8s.thedos.dev/v1alpha1
+kind: UserNameSpace
+metadata:
+  name: example-usernamespace
+spec:
+  # Add fields here
+  size: 3

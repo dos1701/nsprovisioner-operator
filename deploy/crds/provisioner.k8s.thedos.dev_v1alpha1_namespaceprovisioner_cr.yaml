@@ -1,0 +1,7 @@
+apiVersion: provisioner.k8s.thedos.dev/v1alpha1
+kind: NameSpaceProvisioner
+metadata:
+  name: example-namespaceprovisioner
+spec:
+  # Add fields here
+  size: 3
